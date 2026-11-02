@@ -1,0 +1,21 @@
+  PassengerId    Survived     Pclass           Name         Sex     
+ Min.   :  1.0   No :549   First :216   Length   :891   female:314  
+ 1st Qu.:223.5   Yes:342   Second:184   N.unique :891   male  :577  
+ Median :446.0             Third :491   N.blank  :  0               
+ Mean   :446.0                          Min.nchar: 12               
+ 3rd Qu.:668.5                          Max.nchar: 82               
+ Max.   :891.0                                                      
+      Age            SibSp           Parch              Ticket         Fare       
+ Min.   : 0.42   Min.   :0.000   Min.   :0.0000   Length   :891   Min.   :  0.00  
+ 1st Qu.:22.00   1st Qu.:0.000   1st Qu.:0.0000   N.unique :681   1st Qu.:  7.91  
+ Median :28.00   Median :0.000   Median :0.0000   N.blank  :  0   Median : 14.45  
+ Mean   :29.36   Mean   :0.523   Mean   :0.3816   Min.nchar:  3   Mean   : 32.20  
+ 3rd Qu.:35.00   3rd Qu.:1.000   3rd Qu.:0.0000   Max.nchar: 18   3rd Qu.: 31.00  
+ Max.   :80.00   Max.   :8.000   Max.   :6.0000                   Max.   :512.33  
+ Embarked Age_Outlier     Fare_Outlier    Age_Normalized   Fare_Normalized  
+ C:168    Mode :logical   Mode :logical   Min.   :0.0000   Min.   :0.00000  
+ Q: 77    FALSE:825       FALSE:775       1st Qu.:0.2712   1st Qu.:0.01544  
+ S:646    TRUE :66        TRUE :116       Median :0.3466   Median :0.02821  
+                                          Mean   :0.3637   Mean   :0.06286  
+                                          3rd Qu.:0.4345   3rd Qu.:0.06051  
+                                          Max.   :1.0000   Max.   :1.00000  
